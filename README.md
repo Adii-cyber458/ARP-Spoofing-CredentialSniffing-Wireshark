@@ -1,6 +1,9 @@
 # ARP-Spoofing-CredentialSniffing-Wireshark
+
 ARP Spoofing and Credential Sniffing using Wireshark &amp; Altoro Mutual
+
 🔍 Overview
+
 This project demonstrates how attackers can perform Man-in-the-Middle (MITM) attacks using ARP spoofing to intercept credentials in an insecure network. The target application is Altoro Mutual, a deliberately vulnerable banking site used for ethical hacking practice.
 
 🧰 Tools & Technologies
