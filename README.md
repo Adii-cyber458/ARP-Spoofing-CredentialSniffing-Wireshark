@@ -57,7 +57,7 @@ Started Wireshark and filtered HTTP traffic using:
 nginx
 Copy
 Edit
-http.request.method==POST
+http
 Waited for the victim to log in to the Altoro Mutual site.
 
 ##step 5
