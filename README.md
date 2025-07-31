@@ -40,6 +40,7 @@ Edit
 ##step 2
 
 echo 1 > /proc/sys/net/ipv4/ip_forward
+
 Launched ARP spoofing using arpspoof:
 
 bash
